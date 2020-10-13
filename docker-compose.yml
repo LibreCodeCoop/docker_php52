@@ -1,0 +1,11 @@
+version: "3"
+services:
+  php52:
+    build:
+      context: .docker/php52
+    env_file:
+      - .env
+    volumes:
+      - ./public-html:/project
+    ports:
+        - 80:80
