@@ -106,7 +106,7 @@ RUN mkdir /php && \
         --with-openssl \
         --with-openssl-dir=/usr \
         --disable-pcntl \
-        --without-pgsql \
+        --with-pgsql \
         --with-pspell \
         --without-recode \
         --disable-shmop \
@@ -147,7 +147,7 @@ RUN mkdir /php && \
         --without-oci8 \
         --without-pdo-dblib \
         --with-pdo-mysql=/usr \
-        --without-pdo-pgsql \
+        --with-pdo-pgsql=/usr \
         --without-pdo-sqlite \
         --without-pdo-odbc \
         --with-readline \
@@ -208,7 +208,7 @@ RUN mkdir /php && \
         --with-openssl \
         --with-openssl-dir=/usr \
         --disable-pcntl \
-        --without-pgsql \
+        --with-pgsql \
         --with-pspell \
         --without-recode \
         --disable-shmop \
@@ -249,7 +249,7 @@ RUN mkdir /php && \
         --without-oci8 \
         --without-pdo-dblib \
         --with-pdo-mysql=/usr \
-        --without-pdo-pgsql \
+        --with-pdo-pgsql=/usr \
         --without-pdo-sqlite \
         --without-pdo-odbc \
         --with-readline \
@@ -297,7 +297,7 @@ RUN mkdir /php && \
         libmagic-dev libmcrypt-dev libmhash-dev \
         libmpc2 libmpfr4 libmysqlclient-dev libncurses5-dev \
         libp11-kit-dev libpam0g-dev libpcre3-dev libpcrecpp0 libpng12-dev libpopt0 \
-        libpq-dev libpq5 libpspell-dev libpthread-stubs0 libpthread-stubs0-dev \
+        libpspell-dev libpthread-stubs0 libpthread-stubs0-dev \
         libquadmath0 libreadline-dev libreadline6-dev librtmp-dev \
         libsm-dev libsm6 libsqlite3-dev libssl-dev libstdc++6-4.6-dev \
         libt1-dev libtasn1-3-dev libtimedate-perl libtinfo-dev \
